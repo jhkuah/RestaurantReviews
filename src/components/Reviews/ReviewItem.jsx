@@ -4,7 +4,7 @@ function ReviewItem({ name, rating, desc }) {
   return (
     <div className="review">
       <p>{name}</p>
-      <pp>{rating}</pp>
+      <p>{rating}</p>
       <p>{desc}</p>
     </div>
   );
